@@ -4,30 +4,30 @@ internal class Program
   static void Main()
   {
     /* With <LangVersion>12</LangVersion>
-                LinkedList linkedList = [ "Item One" ];
+                LinkedList list = [ "Item One" ];
             is the same as :
-                LinkedList linkedList = new LinkedList();
-                linkedList.Add("Item One");
+                LinkedList list = new LinkedList();
+                list.Add("Item One");
         */
-    LinkedList linkedList = [ "Item One" ];
+    LinkedList list = [ "Item One" ];
 
     // some ways to Add Elements:
-    linkedList.Add("Item Two");
-    linkedList.Add(item: "Item Three");
-    linkedList.Add(item: "Item Four");
-    linkedList.Add(item: "Item Five");
-    linkedList.Add(item: "Item Six");
-    linkedList.Insert(index: 3 , item: "Item ThreePointFive");
+    list.Add("Item Two");
+    list.Add(item: "Item Three");
+    list.Add(item: "Item Four");
+    list.Add(item: "Item Five");
+    list.Add(item: "Item Six");
+    list.Insert(index: 3 , item: "Item ThreePointFive");
 
     // some ways to Remove Elements:
-    linkedList.Remove(item: "Item Five");
-    linkedList.RemoveLast();
-    Console.WriteLine("At Index 1: " + linkedList[ 1 ]
+    list.Remove(item: "Item Five");
+    list.RemoveLast();
+    Console.WriteLine("At Index 1: " + list[ 1 ]
       + "\n ..remove..");
-    linkedList.RemoveAt(index: 1);
+    list.RemoveAt(index: 1);
 
     // print all Elements in a List:
-    foreach (var listObject in linkedList)
+    foreach (var listObject in list)
       Console.WriteLine(listObject);
 
     /// USE OF FACTORY PATTERN:

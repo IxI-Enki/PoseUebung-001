@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MyList.Tests;
+namespace MyListTests;
 
 [TestClass]
 public class LinkedListTests
@@ -358,7 +358,7 @@ public class LinkedListTests
   [TestMethod]
   public void ToArray_NonEmptyList_ReturnsArrayWithElements()
   {
-    // Arrange
+    /// ARANGE
     var linkedList = new LinkedList
     {
       1 ,
@@ -366,12 +366,12 @@ public class LinkedListTests
       3
     };
 
-    // Act
+    /// ACT
     object[ ] array = [ .. linkedList ];
     // is the same as: 
     //     object[ ] array = linkedList.ToArray();
 
-    // Assert
+    /// ASSERT
     Assert.AreEqual(3 , array.Length);
     Assert.AreEqual(1 , array[ 0 ]);
     Assert.AreEqual(2 , array[ 1 ]);

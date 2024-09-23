@@ -32,12 +32,14 @@ public class LinkedList : IList
   }
 
   #endregion
+
   #region Fields
 
   private Element? _head;  //  Head of the linked list (can be null for an empty list)
   private int _count;      //  Number of elements in the list
 
   #endregion
+
   #region Properties
 
   /// <summary>
@@ -99,6 +101,7 @@ public class LinkedList : IList
   }
 
   #endregion
+
   #region Constructor
 
   /// <summary>
@@ -112,6 +115,7 @@ public class LinkedList : IList
   }
 
   #endregion
+
   #region Methods
   /// <summary>
   /// Adds a new element to the end of the linked list.
@@ -386,6 +390,7 @@ public class LinkedList : IList
     return array;
   }
   #endregion
+
   #region Enumerator
   private class Enumerator : IEnumerator<object>
   {
