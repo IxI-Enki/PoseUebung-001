@@ -1,4 +1,4 @@
 # Übung:  Linked List
 
 
-![Screenshot 2024-09-23 140255](https://github.com/user-attachments/assets/690986bd-7263-4ce4-82f4-3afef0f2d9f2)
+![image](https://github.com/user-attachments/assets/a3277f4a-e377-4da0-9c07-935fc8a4fa10)
